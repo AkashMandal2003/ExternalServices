@@ -24,6 +24,9 @@ public class PanServiceImpl implements PanService {
         response.setDob(String.valueOf(pan.getDob()));
         response.setIssueDate(String.valueOf(pan.getIssueDate()));
         response.setStatus(pan.getStatus());
+        response.setEmail(pan.getEmail());
+        response.setAddress(pan.getAddress());
+        response.setContactNumber(pan.getContactNumber());
         return response;
     }
 }

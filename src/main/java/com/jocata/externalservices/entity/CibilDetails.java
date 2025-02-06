@@ -47,5 +47,77 @@ public class CibilDetails {
     public void setId(Integer id) {
         this.id = id;
     }
+
+    public String getPan() {
+        return pan;
+    }
+
+    public void setPan(String pan) {
+        this.pan = pan;
+    }
+
+    public int getCreditScore() {
+        return creditScore;
+    }
+
+    public void setCreditScore(int creditScore) {
+        this.creditScore = creditScore;
+    }
+
+    public String getCreditHistory() {
+        return creditHistory;
+    }
+
+    public void setCreditHistory(String creditHistory) {
+        this.creditHistory = creditHistory;
+    }
+
+    public BigDecimal getTotalOutstandingBalance() {
+        return totalOutstandingBalance;
+    }
+
+    public void setTotalOutstandingBalance(BigDecimal totalOutstandingBalance) {
+        this.totalOutstandingBalance = totalOutstandingBalance;
+    }
+
+    public String getRecentCreditInquiries() {
+        return recentCreditInquiries;
+    }
+
+    public void setRecentCreditInquiries(String recentCreditInquiries) {
+        this.recentCreditInquiries = recentCreditInquiries;
+    }
+
+    public String getPaymentHistory() {
+        return paymentHistory;
+    }
+
+    public void setPaymentHistory(String paymentHistory) {
+        this.paymentHistory = paymentHistory;
+    }
+
+    public BigDecimal getCreditLimit() {
+        return creditLimit;
+    }
+
+    public void setCreditLimit(BigDecimal creditLimit) {
+        this.creditLimit = creditLimit;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public Date getReportDate() {
+        return reportDate;
+    }
+
+    public void setReportDate(Date reportDate) {
+        this.reportDate = reportDate;
+    }
 }
 
